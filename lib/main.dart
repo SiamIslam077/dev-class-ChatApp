@@ -1,0 +1,8 @@
+import 'package:class_project_chat_app/views/login.dart';
+import 'package:flutter/material.dart';
+void main(){
+  runApp(const MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: LoginPage(),
+  ));
+}
